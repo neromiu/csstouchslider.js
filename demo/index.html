@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>csstouchslider demo</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="./jquery.csstouchslider.1.0.0.css">
+		<script src="./jquery.csstouchslider.1.0.0.js"></script>
+		<script>
+			$(function(){
+				$('#slide').csstouchslider({speed:300,sensiv:50});
+			});
+		</script>
+		<style>
+			<!--
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			#slide{
+				height: 300px;
+				margin: 0 auto;
+			}
+			#slide>ul>li{
+				height: 300px;
+				line-height: 300px;
+				color: #fff;
+				font-weight: bold;
+				font-size: 4.0rem;
+				background: #a9ddf2;
+				text-align: center;
+			}
+			#slide>ul>li:nth-child(2n){
+				background: #f2eaa9;
+			}
+			-->
+		</style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="touchslider">
+				<div id="slide">
+					<ul>
+						<li>1<!--img OK--></li>
+						<li>2<!--img OK--></li>
+						<li>3<!--img OK--></li>
+						<li>4<!--img OK--></li>
+						<li>5<!--img OK--></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
