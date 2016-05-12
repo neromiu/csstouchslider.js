@@ -15,3 +15,5 @@ headタグに上記のファイルとjQueryを読み込みます。
 <link rel="stylesheet" href="./jquery.csstouchslider.1.0.0.css">
 <script src="./jquery.csstouchslider.1.0.0.js"></script>
 `
+
+scriptタグで下記のように記述してください
