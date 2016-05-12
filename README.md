@@ -41,3 +41,5 @@ scriptタグで下記のように記述してください。
     		$('#slide').csstouchslider({speed:300,sensiv:50});
     	});
     </script>
+
+#### options
